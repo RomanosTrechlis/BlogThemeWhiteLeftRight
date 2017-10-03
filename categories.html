@@ -1,0 +1,9 @@
+<div>
+    <ul id="catlist">
+        {{range .}}
+        <li>
+            <p>- <a href="{{.Link}}">{{.Name}}</a> ({{.Count}})</p>
+        </li>
+        {{end}}
+    </ul>
+</div>

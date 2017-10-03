@@ -1,0 +1,17 @@
+<article><h3><a href="{{.Link}}">{{.Title}}</a></h3>
+    <div class="datettr">
+        <span class="date">{{.Date}}</span> - <span class="ttr">{{.TimeToRead}} read</span> - <span class="tags">
+            {{range .Tags}}
+                <span class="tag"><a href="{{.Link}}">{{.Name}}</a></span>
+            {{end}}
+        </span>
+    </div>
+    <div>
+
+        <p>
+            {{.Short}}
+        </p>
+
+    </div>
+</article>
+
