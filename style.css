@@ -1,4 +1,4 @@
-﻿﻿html, body, div, form, fieldset, legend, label, h1 {
+﻿﻿html, div, form, fieldset, legend, label, h1 {
     margin: 0;
     padding: 0
 }
@@ -27,6 +27,9 @@ h1 {
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
     background-color: #fff;
     color: rgba(0, 0, 0, .8);
     font-family: medium-content-serif-font, Georgia, Cambria, times new roman, Times, serif;
@@ -59,10 +62,6 @@ pre {
 ::selection {
     background: #000;
     color: #fff
-}
-
-body {
-    margin-top: 10%
 }
 
 header {
