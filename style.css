@@ -54,6 +54,10 @@ pre {
     white-space: pre-wrap
 }
 
+#home {
+  vertical-align: middle;
+}
+
 ::-moz-selection {
     background: #000;
     color: #fff
