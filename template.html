@@ -43,7 +43,9 @@
 </header>
 
 <main role=main>
+    {{ if ne .PageTitle "" }}
     <h1 id="pagetitle">{{.PageTitle}}</h1>
+    {{end}}
 
     {{.Content}}
 
