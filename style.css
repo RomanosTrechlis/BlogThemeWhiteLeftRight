@@ -29,7 +29,7 @@ h1 {
 body {
     margin: 0;
     padding: 0;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: #fff;
     color: rgba(0, 0, 0, .8);
     font-family: medium-content-serif-font, Georgia, Cambria, times new roman, Times, serif;
@@ -40,7 +40,7 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: -.003em;
-    line-height: 1.58;
+    line-height: 1.25;
     text-rendering: optimizeLegibility
 }
 
@@ -69,7 +69,7 @@ pre {
 }
 
 header {
-    font-size: .78em;
+    font-size: .80em;
     margin: 0 auto 2em;
     max-width: 220px;
     text-align: center
