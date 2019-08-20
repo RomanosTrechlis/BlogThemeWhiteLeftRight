@@ -1,0 +1,24 @@
+{
+	"name": "Romanos Trechlis' Blog",
+	"short_name": "RAnT Blog",
+	"lang": "us-EN",
+	"start_url": "./",
+	"display": "standalone",
+	"background_color": "white",
+	"theme_color": "white",
+	"icons": [{
+		"src": "favicon.ico",
+		"sizes": "190x223",
+		"type": "image/vnd.microsoft.ico"
+	},
+	{
+		"src": "/beard_192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	},
+	{
+		"src": "/beard_512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	}]
+}
